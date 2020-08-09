@@ -1,4 +1,4 @@
 # Console log projects
 
-Collection of the assignments my JavaScript course at Learn2code.
+Collection of the assignments from JavaScript course at Learn2code.
 
