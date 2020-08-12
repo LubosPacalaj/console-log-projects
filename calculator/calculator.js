@@ -1,7 +1,7 @@
 const max = 9999;  
 const min = -9999
-const alertPositive = 'maximalna hodnota moze byt 9999'; 
-const alertNegativ = 'maximalna hodnota moze byt -9999'; 
+const alertPositive = 'max value is 9999'; 
+const alertNegativ = 'min value is -9999'; 
 
 const Operators = {
     SUM: '+',

@@ -131,7 +131,7 @@ const shirts = [{
     }
     return total
   }
-  console.log(`Priemerna cena tricka je ${computeAveragePrice(shirts ,"for")} eur`)
+  console.log(`Average price for t-shirt is ${computeAveragePrice(shirts ,"for")} eur`)
  
 const getShirtsHistogramSwitch = (shirts) => {
     let totalXS = totalS = totalM = totalL = totalXL = total2XL = total3XL = 0

@@ -398,8 +398,8 @@ const getDemographics = (users) => {
         womans++
        }       
    });
-   console.log(`muzov je ${Math.round((mens / users.length) * 100)} %`);
-   console.log(`zien je ${Math.round((womans / users.length) * 100)} % `);
+   console.log(`mens ${Math.round((mens / users.length) * 100)} %`);
+   console.log(`women ${Math.round((womans / users.length) * 100)} % `);
 }
 
 

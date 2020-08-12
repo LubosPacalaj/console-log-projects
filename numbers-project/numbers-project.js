@@ -24,10 +24,10 @@ const addNumber = (num, operacia) => {
 
     if(typeof num === "number" && !Array.isArray(num)) {
         return (
-            `cislo ${num} bolo uspesne pridane, dlzka pola je ${numbers.push(num)}`  
+            `number ${num} has been successfully added, array length is ${numbers.push(num)}`  
         ) 
     } else {
-       console.log("nepovolena vstupna hodnota")
+       console.log("incorect input value")
     }
 
     switch (operacia) {
@@ -37,7 +37,7 @@ const addNumber = (num, operacia) => {
             if( typeof num !== "number" && Array.isArray(num)){
                 num.forEach((number) => { 
 
-                    console.log(`cislo ${number} bolo uspesne pridane, dlzka pola je ${numbers.push(number)}`)
+                    console.log(`number ${number} has been successfully added, array length is ${numbers.push(number)}`)
                 })
             }    
         break;
@@ -80,7 +80,7 @@ const filterNumbers = (numbers) => {
 }
 
 const evenNumber = filterNumbers(numbers)
-console.log("Filtrovanie parnych cisel",evenNumber)
+console.log("filter even numbers",evenNumber)
 
 const sumNumber = (evenNumber) => {
 
@@ -97,13 +97,6 @@ const sumNumber = (evenNumber) => {
 console.log("sumNUMBER", sumNumber(evenNumber))
 console.log(numbers)
 
-
-
-
-
-
-// Genorovanie lubovolnych cisel / priradenie do pola / filtrovanie parnych a neparnych /
-// Sum cisel 
 
 
 
